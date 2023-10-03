@@ -43,9 +43,12 @@
 }
 
 .boardbottom {
-  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
   color: white;
   margin-bottom: 20px;
+  justify-content:end;
 }
 
 .w100 {

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../css/PopupComponent.module.css";
-import profileImage from "../icons/iconPerson.jpg"; 
+import profileImage from "../icons/iconPerson.jpg";
+import bhushan from "../icons/bhushan.png" 
 
 const PopupComponent = ({ onClose }) => {
   return (
@@ -12,7 +13,7 @@ const PopupComponent = ({ onClose }) => {
           <div className={styles["popup-header"]}>
             <img
               className={styles["profile-image"]}
-              src={profileImage}
+              src={bhushan}
               alt="Profile"
             />
           </div>
