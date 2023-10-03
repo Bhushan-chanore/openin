@@ -74,7 +74,7 @@ const Homepage = () => {
       <div className={`d-flex ${styles.home}`}>
         <Board />
         <HomeFeatures />
-      </div>
+      </div >
     </>
   );
 };
